@@ -1,4 +1,4 @@
-for i in range(1, 1000):
+for i in range(151, 1000):
     N = hex(i)[2:]
     N = N.replace("a","1")
     k = 0

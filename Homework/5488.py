@@ -7,3 +7,4 @@ for pos, val in enumerate(product(alph, repeat=8), start=1):
     if val.count("П")+val.count("Л")+val.count("Н") >= val.count("О")+val.count("И")+val.count("А"):
         d+=1
 print(d)
+

@@ -1,5 +1,5 @@
 with open("ans.txt", "w") as f:
-    data = [list(map(int, i.split())) for i in data]
+    data = [list(map(int, i.split())) for i in f]
 cnt = 0
 for i in data:
     n = [i.count(j) for j in i]

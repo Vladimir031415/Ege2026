@@ -1,0 +1,1 @@
+print(max([sum(list(map(len, input().split("Y")))[i:i+151]) + 150 for i in range(len(list(map(len, input().split("Y"))))-150)]))
